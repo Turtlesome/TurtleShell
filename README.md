@@ -8,5 +8,5 @@ Available commands are:
 4.  rmdir
 5.  mkfile
 6.  rmfile
-7.  ls
+7.  ls with -a option
 8.  exit
