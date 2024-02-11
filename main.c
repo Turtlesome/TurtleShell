@@ -11,6 +11,7 @@
 #include "mkfile.h"
 #include "rmfile.h"
 #include "ls.h"
+#include "cp.h"
 
 int main()
 {
@@ -19,8 +20,8 @@ int main()
     int status = 1;
 
     Node* root = NULL;
-    char* map_commands[] = { "pwd", "cd", "mkdir", "rmdir", "mkfile", "rmfile", "ls"};
-    void (*commands_functions[])(hashmap_char*) = { print_working_directory, change_directory, make_directory, remove_directory, makeFile, removeFile, listFiles};
+    char* map_commands[] = { "pwd", "cd", "mkdir", "rmdir", "mkfile", "rmfile", "ls", "cp"};
+    void (*commands_functions[])(hashmap_char*) = { print_working_directory, change_directory, make_directory, remove_directory, makeFile, removeFile, listFiles, copyFile};
 
     for (int i = 0; i < sizeof(map_commands) / sizeof(map_commands[0]); i++)
     {
