@@ -9,4 +9,5 @@ Available commands are:
 5.  mkfile
 6.  rmfile
 7.  ls with -a option
-8.  exit
+8.  cp
+9.  exit
