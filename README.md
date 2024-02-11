@@ -10,4 +10,5 @@ Available commands are:
 6.  rmfile
 7.  ls with -a option
 8.  cp
-9.  exit
+9.  mv
+10.  exit
