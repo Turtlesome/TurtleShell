@@ -36,7 +36,7 @@ int main()
         hashmap_char* map_char = parseCommandLine(command_line);
 
         //printf("%s\n", command);
-        printHashMap(map_char);
+        // printHashMap(map_char);
 
         Node* command_node = search(root, command);
         if (command_node != NULL)
