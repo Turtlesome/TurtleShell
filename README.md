@@ -16,4 +16,5 @@ Available commands are:
 9.  mv
 10.  display with -h -t options, for example display -h 5 file.txt
 11.  grep (only for single words)
-12.  exit
+12.  run
+13.  exit
