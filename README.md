@@ -14,4 +14,6 @@ Available commands are:
 7.  ls with -a option
 8.  cp
 9.  mv
-10.  exit
+10.  display with -h -t options, for example display -h 5 file.txt
+11.  grep (only for single words)
+12.  exit
